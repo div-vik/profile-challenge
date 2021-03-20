@@ -1,0 +1,119 @@
+body{
+  background-color: #28abb9;
+  text-align: center;
+  margin: 0;
+}
+
+.top{
+  position: relative;
+  right: 500px;
+  bottom: 500px;
+}
+
+.bottom{
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
+
+.playcard{
+  height: 450px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+  margin: 0 307.200px 0;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+
+}
+
+.pattern{
+  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+  border-radius: 25px 25px 0 0;
+  height: 150px;
+}
+
+.profile{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  border: 4px solid white;
+  border-radius: 56%;
+}
+
+.address{
+  margin-top: 10px;
+}
+
+.bottom-layer{
+  background-color: white;
+  border-radius: 0 0 25px 25px;
+  height: 75%;
+}
+hr{
+  line-height: 2;
+  margin-bottom: 50px;
+  background-color: grey;
+}
+
+.text{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.content{
+  text-align: left;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.followers1{
+  display: inline;
+  margin:0 60px 0 45px;
+  font-weight: bold;
+}
+
+.followers{
+  display: inline;
+  position: relative;
+  top: 30px;
+  right: 110px;
+  font-weight: 100;
+}
+
+.likes1{
+  display: inline;
+  position: relative;
+  right: 37px;
+  font-weight: bold;
+}
+
+.likes{
+  display: inline;
+  position: relative;
+  top: 30px;
+  right: 79px;
+  font-weight: 100;
+}
+
+.photos1{
+  display: inline;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.photos{
+  display: inline;
+  position: relative;
+  top: 30px;
+  right: 45px;
+  font-weight: 100;
+}
